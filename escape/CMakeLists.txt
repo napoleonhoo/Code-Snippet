@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 2.8)
+project(escape)
+add_definitions(-std=c++11)
+include_directories(../../googletest/googletest/include)
+link_directories(../../googletest/lib)
+aux_source_directory(. DIR_SRCS)
+link_libraries(gtest pthread)
+add_executable(escape_test escape_test.cc)
