@@ -5,7 +5,7 @@
 
 #include "thread_pool.h"
 
-namespace npjh {
+namespace npjh_ccia {
 
 template <typename T>
 struct sorter {
@@ -23,6 +23,6 @@ struct sorter {
   }
 };
 
-}  // namespace npjh
+}  // namespace npjh_ccia
 
 #endif

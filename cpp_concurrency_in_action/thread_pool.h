@@ -11,7 +11,7 @@
 #include "join_threads.h"
 #include "threadsafe_queue.h"
 
-namespace npjh {
+namespace npjh_ccia {
 
 class thread_pool {
  private:
@@ -57,6 +57,6 @@ class thread_pool {
   }
 };
 
-}  // namespace npjh
+}  // namespace npjh_ccia
 
 #endif

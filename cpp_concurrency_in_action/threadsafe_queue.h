@@ -5,7 +5,7 @@
 #include <mutex>
 #include <queue>
 
-namespace npjh {
+namespace npjh_ccia {
 
 template <typename T>
 class threadsafe_queue {
@@ -60,6 +60,6 @@ class threadsafe_queue {
   }
 };
 
-}  // namespace npjh
+}  // namespace npjh_ccia
 
 #endif

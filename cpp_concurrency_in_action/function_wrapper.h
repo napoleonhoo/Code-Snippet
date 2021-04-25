@@ -3,7 +3,7 @@
 
 #include <memory>
 
-namespace npjh {
+namespace npjh_ccia {
 
 class function_wrapper {
  private:
@@ -36,6 +36,6 @@ class function_wrapper {
   function_wrapper& operator=(const function_wrapper&) = delete;
 };
 
-}  // namespace npjh
+}  // namespace npjh_ccia
 
 #endif

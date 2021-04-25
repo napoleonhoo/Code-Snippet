@@ -4,7 +4,7 @@
 #include <thread>
 #include <vector>
 
-namespace npjh {
+namespace npjh_ccia {
 
 class join_threads {
  private:
@@ -21,6 +21,6 @@ class join_threads {
   }
 };
 
-}  // namespace npjh
+}  // namespace npjh_ccia
 
 #endif
